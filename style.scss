@@ -98,3 +98,64 @@ nav{
         right: 1vw;
     }
 }
+
+.play-icon{
+    background-color: #00c5a5;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+
+    img{
+        position: absolute;
+        top: 50%;
+        left: 53%;
+
+        transform: translate(-50%, -50%);
+    }
+}
+
+.main-sec{
+    background: white;
+}
+
+.left-main-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .headings{
+
+        margin-top: 50px;
+        margin-bottom: 30px;
+    
+        h1{
+            font-size: 70px;
+            font-weight: 600;
+            margin: 0;
+            text-transform: uppercase;
+        }
+    
+        h1:last-child{
+            color: #00c5a5;
+        }
+    }
+
+    p{
+        color: #777777;
+    }
+}
+
+.black-btn{
+    border: none;
+    color: white;
+    background: #252525;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 15px 45px;
+
+    &:hover{
+        background: #161616;
+    }
+}

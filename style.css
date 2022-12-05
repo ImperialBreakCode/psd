@@ -76,4 +76,57 @@ nav ul li img {
 }
 nav .left-ul {
   right: 1vw;
+}
+
+.play-icon {
+  background-color: #00c5a5;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: relative;
+}
+.play-icon img {
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+}
+
+.main-sec {
+  background: white;
+}
+
+.left-main-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.left-main-cont .headings {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.left-main-cont .headings h1 {
+  font-size: 70px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+}
+.left-main-cont .headings h1:last-child {
+  color: #00c5a5;
+}
+.left-main-cont p {
+  color: #777777;
+}
+
+.black-btn {
+  border: none;
+  color: white;
+  background: #252525;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 15px 45px;
+}
+.black-btn:hover {
+  background: #161616;
 }/*# sourceMappingURL=style.css.map */
